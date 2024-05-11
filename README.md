@@ -49,7 +49,7 @@ To deploy this project run
 | DELETE | `/api/products/{id}`              | Delete product by id                     | `id`: number (required)  |
 
 #### Images
-![Image Description](/images/API.png)
+![API Created](/ProductCategoryCrud/src/main/resources/static/images/API.png)
 
 
 

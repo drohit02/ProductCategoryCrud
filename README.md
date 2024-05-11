@@ -30,7 +30,6 @@ To deploy this project run
 
 #### Product Crud API
 
-```http
 | Method | Endpoint                          | Description                              | Parameters               |
 | ------ | --------------------------------- | ---------------------------------------- | ------------------------ |
 | GET    | `/api/categories?page=3`          | Get all categories                       | `page`: number           |
@@ -38,10 +37,9 @@ To deploy this project run
 | GET    | `/api/categories/{id}`            | Get category by Id                       | `id`: number (required)  |
 | PUT    | `/api/categories/{id}`            | Update category by id                    | `id`: number (required)  |
 | DELETE | `/api/categories/{id}`            | Delete category by id                    | `id`: number (required)  |
-```
+
 #### Category Crud API
 
-```http
 | Method | Endpoint                          | Description                              | Parameters               |
 | ------ | --------------------------------- | ---------------------------------------- | ------------------------ |
 | GET    | `/api/products?page=2`           | Get all products                         | `page`: number           |
@@ -49,7 +47,6 @@ To deploy this project run
 | GET    | `/api/products/{id}`              | Get product by Id                        | `id`: number (required)  |
 | PUT    | `/api/products/{id}`              | Update product by id                     | `id`: number (required)  |
 | DELETE | `/api/products/{id}`              | Delete product by id                     | `id`: number (required)  |
-```
 
 
 

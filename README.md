@@ -48,6 +48,8 @@ To deploy this project run
 | PUT    | `/api/products/{id}`              | Update product by id                     | `id`: number (required)  |
 | DELETE | `/api/products/{id}`              | Delete product by id                     | `id`: number (required)  |
 
+#### Images
+![Image Description](/images/API.png)
 
 
 

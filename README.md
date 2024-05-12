@@ -49,7 +49,9 @@ To deploy this project run
 | DELETE | `/api/products/{id}`              | Delete product by id                     | `id`: number (required)  |
 
 #### Images
+**1 . API Created**
 ![API Created](/ProductCategoryCrud/src/main/resources/static/images/API.png)
 
-
+**2. Project Folder Structure**
+![Folder Structure](/ProductCategoryCrud/src/main/resources/static/images/folderView.png)
 

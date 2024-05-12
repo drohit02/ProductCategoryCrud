@@ -53,5 +53,6 @@ To deploy this project run
 ![API Created](/ProductCategoryCrud/src/main/resources/static/images/API.png)
 
 **2. Project Folder Structure**
+
 ![Folder Structure](/ProductCategoryCrud/src/main/resources/static/images/folderView.png)
 

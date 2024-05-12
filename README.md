@@ -2,7 +2,7 @@
 
 This Project is capable of the storing the Product ans we can perform creat,update,delete and edit the data releated to products
 We have mapped one to many relations between product and category i.e One category can have multiple products.
-Server side Pagaination help to load the data into chuck which improves the performance of the Appliction
+Server side Pagination help to load the data into chuck which improves the performance of the Appliction
 
 ## Installation
 
@@ -12,7 +12,7 @@ Install my-project with npm
   1. Unzip the Folder ProductCategoryCrud
   2. Open the Eclipse IDE
   3. Import the Project into Eclipse
-  4. Use Maven-> Update Project by left clicking on    project 
+  4. Use Maven-> Update Project by left clicking on project 
 ```
     
 ## Deployment
@@ -42,7 +42,7 @@ To deploy this project run
 
 | Method | Endpoint                          | Description                              | Parameters               |
 | ------ | --------------------------------- | ---------------------------------------- | ------------------------ |
-| GET    | `/api/products?page=2`           | Get all products                          | `page`: number           |
+| GET    | `/api/products?page=2`            | Get all products                         | `page`: number           |
 | POST   | `/api/products`                   | Create a new product                     |   Category Object        |
 | GET    | `/api/products/{id}`              | Get product by Id                        | `id`: number (required)  |
 | PUT    | `/api/products/{id}`              | Update product by id                     | `id`: number (required)  |

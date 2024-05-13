@@ -24,7 +24,6 @@ public class Product {
     @Column(name="price")
     private double price;
     
-    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "category_data")
     private Category category;
